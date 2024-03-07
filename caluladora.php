@@ -1,7 +1,7 @@
 <?php
 // pegar variveis vinda na url
 // $variaveis1=$_GET;
-
+//póooooo;
 //pode ser array, usamos o var_dump para
 // verificar seu conteudo
 //var_dump($variveis);
@@ -31,11 +31,31 @@ if($operador == "somar"){
     
 }
 
+if($numero == 0){
 
+    echo"
+    
+    
+    script>
+    
+    alert('impossivel divisao por zero');
+    exit();
+    </script>
+    
+    ";
+    
+     }else{
+    
+     resultado = $numero1 / numero2;
+    }
+    
+}  
+    
+    ?>
 
    
    
-?>
+
 
 
 
@@ -87,24 +107,7 @@ if($operador == "somar"){
     
    <script> 
   //funcao para formulario
- if($numero == 0){
-
-echo"
-
-
-script>
-
-alert('impossivel divisao por zero');
-exit();
-</script>
-
-"?
-}else{
-
- resultado = $numero1 / numero2;
-}
-
-} 
+ 
 
 
 
