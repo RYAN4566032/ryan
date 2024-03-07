@@ -1,6 +1,6 @@
 <?php
 // pegar variveis vinda na url
-//halamadrid
+//halamadrid;
 // $variaveis1=$_GET;
 //póooooo;
 //pode ser array, usamos o var_dump para
